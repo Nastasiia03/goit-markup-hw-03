@@ -29,6 +29,10 @@
 
 /* Reset */
 
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
 .link,
 .contact-link {
     text-decoration: none;
@@ -38,9 +42,30 @@
 .list,
 .filters-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
 }
 
 /* Header */
+
+.header-container {
+display: flex;
+}
+
+.logo {
+ margin-right: 93px;   
+}
 
 .header .logo {
 font-family: var(--secondary-font);
@@ -54,6 +79,15 @@ text-decoration: none;
 
 .logo span {
 color: var(--accent-txt-cl);
+}
+
+.nav {
+    margin-right: 344px;
+}
+
+.header-list {
+display: flex;
+gap: 50px;
 }
 
 .header .link {
