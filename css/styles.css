@@ -59,12 +59,19 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Header */
 
+.header {
+border-bottom: 1px solid #ECECEC;
+}
+
 .header-container {
 display: flex;
+align-items: center;
 }
 
 .logo {
  margin-right: 93px;   
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .header .logo {
@@ -90,10 +97,13 @@ display: flex;
 gap: 50px;
 }
 
-.header .link {
+.header-link {
 font-weight: 500;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 }
 
 .contact-link {
@@ -101,6 +111,9 @@ font-weight: 500;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: var(--supporting-txt-cl);  
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 }
 
 .header .link:hover,
@@ -117,16 +130,23 @@ color: var(--supporting-txt-cl);
 
 .hero {
     background-color:var(--supporting-bg-cl);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.hero-container {
+    width: 696px;
 }
 
 .hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: calc(60/44);
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--light-txt-cl);
+margin-bottom: 30px;
 }
 
 .hero .btn {
@@ -138,6 +158,9 @@ letter-spacing: 0.06em;
 color: var(--light-txt-cl);
 background-color: var(--accent-bg-cl);
 cursor: pointer;
+width: 216px;
+border-radius: 4px;
+padding: 8px 28px;
 }
 
 /* Features */
