@@ -69,8 +69,8 @@ align-items: center;
 
 .logo {
  margin-right: 93px;   
-padding-top: 32px;
-padding-bottom: 32px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header .logo {
@@ -283,9 +283,7 @@ display: block;
 margin-bottom: 20px;
 }
 
-.address-list-item {
-    width: 231px;
-}
+
 .address-list-item:not(:last-child) {
 margin-bottom: 9px;
 }
@@ -370,6 +368,7 @@ font-size: 18px;
 line-height: calc(36/18);
 letter-spacing: 0.06em;
 color: var(--main-txt-cl);
+margin-bottom: 4px;
 }
 
 .project-type {
